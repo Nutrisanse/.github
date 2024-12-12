@@ -3,9 +3,9 @@
 
 
 ## Themes 💡
-<p align="justify">-</p>
+<p align="justify">This project is focused on developing a personalized medical checkup application that provides tailored dietary recommendations based on users' individual health conditions. By collecting and analyzing key health metrics such as height, weight, blood pressure, and cholesterol levels, the app will offer customized food guidance that directly addresses the user’s unique health profile. The main goal of this application is to empower individuals to make informed, health-conscious food choices that align with their specific needs. Through predictive modeling, the app will be able to identify potential health risks and suggest appropriate foods that can mitigate those risks. In addition, the integration of computer vision technology will allow the app to analyze food images, offering users real-time, actionable dietary advice based on the foods they consume.</p>
 
-<p align="justify">-</p>
+<p align="justify">The second key component of this project is its focus on disease prevention and promoting overall wellness. By offering a personalized food safety analysis and nutrient-based recommendations, the app aims to proactively manage users' health and prevent chronic conditions such as diabetes, hypertension, and heart disease. With the ability to adapt to changing health metrics, the app will serve as a dynamic tool that evolves with the user’s health status, ensuring that dietary guidance remains relevant and effective over time. Ultimately, this solution will help users not only understand their current health condition but also make proactive, informed decisions about their diet that support long-term well-being.</p>
 
 ## Team Member 🧠
 ### C242-PS384
