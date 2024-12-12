@@ -8,7 +8,7 @@
 <p align="justify">-</p>
 
 ## Team Member 🧠
-### C241-PS354
+### C242-PS384
 | Bangkit ID | Name | Learning Path | University |LinkedIn |
 | ---      | ---       | ---       | ---       | ---       |
 | M312B4KY0972   | Dana Affan Rabbani | Machine Learning |  Universitas Sebelas Maret | <a href="https://www.linkedin.com/in/dana-arl/"><img src="https://seeklogo.com/images/L/linkedin-logo-F84AF05CFC-seeklogo.com.png" style="width: 70px;"></a> |
