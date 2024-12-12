@@ -1,5 +1,5 @@
 # Nutrisense: Smart Solution for Disease Detection and Food/Nutrition Recommendation
-<p align="justify">-
+<p align="justify">According to the latest data from the World Health Organization (WHO) published in 2022, an estimated 390 million adults worldwide are underweight, and 149 million children under 5 suffer from stunting. Undernutrition remains a leading cause of death in young children, particularly in low- and middle-income countries. The consequences of undernutrition are far-reaching, affecting physical and cognitive development, as well as long-term health outcomes. One promising solution to address this growing global issue is the development of a nutrition-focused food recommendation application. This application could be designed to offer tailored meal plans that help individuals, especially those in vulnerable populations, meet their nutritional needs. By providing access to recipes that are nutrient-dense, affordable, and aligned with the dietary preferences of users, the app could empower people to make healthier food choices and improve their overall well-being. Such a platform would play a crucial role in combating undernutrition, reducing the prevalence of stunting, and improving health outcomes globally.</p>
 
 
 ## Themes 💡
