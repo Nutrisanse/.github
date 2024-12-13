@@ -26,6 +26,82 @@
 ## Resource 
 ### Machine Learning Resource
 
+#### Disease Prediction Model
+This module focuses on predictive modeling to analyze health metrics and symptoms for disease identification. It includes two models, which can be tested locally or deployed via Streamlit. Resource repository can be accessed from this link: [Disease Model Prediction](https://github.com/dana-ml27-bangkit2024/Capstone-C242-PS384_Project01)
+
+#### Model 1: Health Data Prediction
+- **Purpose**: Predict potential diseases based on health metrics such as height, weight, and blood pressure.
+- **Features**:
+  - Data preprocessing to combine and clean datasets.
+  - Model training and evaluation, including metrics like accuracy.
+  - Exporting trained models in HDF5 format.
+
+##### Steps to Use:
+1. **Environment Setup**:
+   - Ensure Python 3.10.15 is installed in a Conda environment.
+   - Install dependencies:
+     ```bash
+     pip install -r scripts/requirement-model1.txt
+     ```
+
+2. **Preprocessing Data**:
+   - Combine datasets and save the processed file as `combined_dataset.csv`.
+
+3. **Training the Model**:
+   - Train the model using the preprocessed data.
+   - Observe metrics during training, such as accuracy and loss.
+
+4. **Saving the Model**:
+   - The trained model is saved as an HDF5 file in the `models` directory.
+
+5. **Testing the Model**:
+   - Deploy and test locally or use TensorFlow.js conversion for web deployment.
+
+#### Model 2: Symptom-Based Prediction
+- **Purpose**: Predict diseases based on user-reported symptoms.
+- **Features**:
+  - Localized input support (e.g., Indonesian symptom mapping).
+  - Real-time predictions based on user inputs.
+
+##### Steps to Use:
+1. **Environment Setup**:
+   - Use the same environment as Model 1. No additional installations are needed.
+
+2. **Input Symptoms**:
+   - Provide symptoms in the supported language for accurate predictions.
+
+3. **Prediction Output**:
+   - View disease predictions based on symptoms.
+
+#### Deployment
+1. **TensorFlow.js Conversion**:
+   - Convert HDF5 models to TensorFlow.js format using:
+     ```bash
+     tensorflowjs_converter --input_format keras models/model1.h5 models/js_model/
+     ```
+
+2. **Streamlit Application**:
+   - Run the application locally:
+     ```bash
+     streamlit run app.py
+     ```
+   - Or access the deployed app: [Streamlit Deployment](https://capstone-c242-ps384-deploy-model.streamlit.app/).
+
+#### Food Image Analysis
+- **Computer Vision**:
+  - Identifies food items and analyzes their nutritional value.
+  - Helps provide dietary recommendations based on detected items.
+  - Further resource can be accessed from this link: [TFoodDetection](https://github.com/Wistchze/TFoodDetection)
+
+#### Key Files and Directories
+- **`models/`**:
+  - Contains trained models in HDF5 format and converted TensorFlow.js models.
+- **`scripts/`**:
+  - Scripts for data preprocessing, training, and testing models.
+- **`app.py`**:
+  - Streamlit application for user interaction and model deployment.
+
+
 ### Cloud Computing Resource
 
 ### Mobile Development Resource
