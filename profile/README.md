@@ -77,13 +77,19 @@ This module focuses on predictive modeling to analyze health metrics and symptom
 1. **TensorFlow.js Conversion**:
    - Convert HDF5 models to TensorFlow.js format using:
      ```bash
-     tensorflowjs_converter --input_format keras models/model1.h5 models/js_model/
+     !tensorflowjs_converter --input_format=keras models/disease-prediction-tf-model.h5 models/tfjs_disease_model
+     !tensorflowjs_converter --input_format=keras models/symptoms_predict_model.h5 models/tfjs_symptoms_model
+     ```
+     Or:
+     ```bash
+     tensorflowjs_converter --input_format=keras models/disease-prediction-tf-model.h5 models/tfjs_disease_model
+     tensorflowjs_converter --input_format=keras models/symptoms_predict_model.h5 models/tfjs_symptoms_model
      ```
 
 2. **Streamlit Application**:
    - Run the application locally:
      ```bash
-     streamlit run app.py
+     streamlit run streamlit/app.py
      ```
    - Or access the deployed app: [Streamlit Deployment](https://capstone-c242-ps384-deploy-model.streamlit.app/).
 
