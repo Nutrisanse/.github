@@ -97,6 +97,25 @@ This module focuses on predictive modeling to analyze health metrics and symptom
 - **Computer Vision**:
   - Identifies food items and analyzes their nutritional value.
   - Helps provide dietary recommendations based on detected items.
+  - Food and classification dataset:
+      - [Nasi](https://universe.roboflow.com/ds/roXcbPZakq?key=IOK2pppuHi)
+      - [Nasi Goreng](https://universe.roboflow.com/ds/lYlem1DICA?key=2HMTQg0rgF)
+      - [Soto](https://universe.roboflow.com/ds/FQdVgKD4ne?key=tMg9wwKgp8)
+      - [Paha Ayam Crispy](https://universe.roboflow.com/ds/FZfUvj19gl?key=ypVfBvWpXa)
+      - [Dada Ayam Crispy](https://universe.roboflow.com/ds/9RrzjYG7zP?key=DGXSxu8utG)
+      - [Ayam Panggang](https://universe.roboflow.com/ds/dT2udTcr7i?key=ETVBixn0SQ)
+      - [Nugget](https://universe.roboflow.com/ds/UrSbFCrm4N?key=FNLSi6kwqh)
+      - [Mie Goreng](https://universe.roboflow.com/ds/I8SK8dYvhn?key=vANvUfRlHa)
+      - [Telur Mata Sapi](https://universe.roboflow.com/ds/qtDcjezMS7?key=MsTxOsLNqN)
+      - [Telur Dadar](https://universe.roboflow.com/ds/cpGuB9lOVR?key=nrTvbBpPKd)
+      - [Telur Rebus](https://universe.roboflow.com/ds/f1lrfXU9tb?key=atCgYFQ026)
+      - [Kangkung](https://universe.roboflow.com/ds/JEpp5GrKG8?key=Q67vh9f99p)
+      - [Tempe](https://universe.roboflow.com/ds/pthbuKQ9Ty?key=d9EsXhK7HX)
+      - [Tahu](https://universe.roboflow.com/ds/mjRvU9VD2x?key=rwXLXDjT6K)
+      - [Sosis](https://universe.roboflow.com/ds/eyPixVx3Zt?key=e8sEVbar9L)
+      - [Burger](https://universe.roboflow.com/ds/RQ1i6ggeEI?key=DlCsNhQp9q)
+      - [Rendang Sapi](https://universe.roboflow.com/ds/gStxqVxfkA?key=IVd936xzOi)
+      - [Nutrition Fact](https://docs.google.com/spreadsheets/d/1snqE6leDkZlL61qQ4g-vUmiFjizJyN1OCVAhwWWKSm4/edit?gid=2024304766#gid=2024304766)
   - Further resource can be accessed from this link: [TFoodDetection](https://github.com/Wistchze/TFoodDetection)
 
 #### Key Files and Directories
