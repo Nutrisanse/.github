@@ -23,10 +23,10 @@
 <br>
 <img src="https://cdn.pixabay.com/animation/2023/07/19/01/41/01-41-18-281_512.gif" width="500">
 
-## Resource 
-### Machine Learning Resource
+# Resource 
+## Machine Learning Resource
 
-#### Disease Prediction Model
+### A. Disease Prediction Model
 This module focuses on predictive modeling to analyze health metrics and symptoms for disease identification. It includes two models, which can be tested locally or deployed via Streamlit. Resource repository can be accessed from this link: [Disease Model Prediction](https://github.com/dana-ml27-bangkit2024/Capstone-C242-PS384_Project01)
 
 #### Model 1: Health Data Prediction
@@ -101,7 +101,7 @@ This module focuses on predictive modeling to analyze health metrics and symptom
 - **`app.py`**:
   - Streamlit application for user interaction and model deployment.
 
-#### Model 2: Food Detection by Image
+### B. Food Detection by Image
   - Identifies food items and analyzes their nutritional value.
   - Helps provide dietary recommendations based on detected items.
   - Food and classification dataset:
@@ -125,7 +125,7 @@ This module focuses on predictive modeling to analyze health metrics and symptom
       - [Nutrition Fact](https://docs.google.com/spreadsheets/d/1snqE6leDkZlL61qQ4g-vUmiFjizJyN1OCVAhwWWKSm4/edit?gid=2024304766#gid=2024304766)
       ---
       
-      ### Project Structure
+      #### Project Structure
       
       1. Normal CNN for Food Classification
       
@@ -143,27 +143,8 @@ This module focuses on predictive modeling to analyze health metrics and symptom
           Mask R-CNN was chosen for its ability to localize and classify multiple objects, offering both bounding box detection and pixel-level segmentation. This makes it a powerful tool for applications such as food analysis and portion size estimation.
       
       ---
-      ### Why Two Approaches?
-      
-       During the early phases of the project, the normal_cnn approach was implemented to experiment with classification techniques. The initial assumption was that Mask R-CNN could adapt and integrate a custom CNN architecture for classification tasks. However, upon deeper exploration, it became clear that Mask R-CNN operates differently, leveraging pre-trained backbones for feature extraction.
-      
-       This realization led to a pivot in focus towards implementing Mask R-CNN for detection and segmentation while retaining the normal_cnn implementation as a valuable learning experience. The knowledge gained from both approaches enriched the project, offering insights into:
-      
-       - Image classification fundamentals through CNNs.
-      
-       - Object detection and segmentation using advanced architectures like Mask R-CNN.
-      
-      ---
       
       ### Key Features
-      
-      **Normal CNN**
-      
-      - A straightforward convolutional architecture for classifying food images into predefined categories.
-      - Training pipeline includes data augmentation and validation.
-      - Insights gained through this implementation provided foundational knowledge for more advanced techniques.
-      
-      **Mask R-CNN**
       
       - Implementation leverages mrcnn for object detection and instance segmentation.
       
@@ -177,9 +158,9 @@ This module focuses on predictive modeling to analyze health metrics and symptom
       
       - Extensive use of data augmentation to improve robustness.
       
-      # Getting Started
+      ### Getting Started
       
-      ### Conda Environment Setup
+      #### Conda Environment Setup
       
       Before running any scripts, ensure you have set up the Conda environment using the provided `environment.yaml` file in the root directory. Run the following command to create the environment:
       
@@ -191,19 +172,8 @@ This module focuses on predictive modeling to analyze health metrics and symptom
       ```bash
       conda activate your_env_name
       ```
-      
-      ### Normal CNN
-      
-      1. Navigate to the normal_cnn directory.
-      
-      2. For training, run the Jupyter Notebook food_classification.ipynb.
-      
-      3. For inference, execute the following script:
-      ```bash
-      python food_inference.py
-      ```
-      
-      ### Mask R-CNN
+    
+      #### Mask R-CNN
       
       1. Navigate to the `mrcnn` directory.
       
@@ -231,9 +201,12 @@ This module focuses on predictive modeling to analyze health metrics and symptom
       python inference/test_inference.py
       ```
       
-      # Deployment
+      #### Deployment
       
       The final Mask R-CNN model has been successfully deployed using Flask for scalability. Additionally, a local GUI has been developed for testing purposes. This GUI allows users to interact with the model, upload images, and visualize predictions in real-time. Both the Flask application and the GUI provide seamless access to the model’s detection and segmentation capabilities.
+
+      #### More
+      For furthermore explanation on Food Detection. Please follows the documentation on [Food Detection Repository](https://github.com/Nutrisanse/TFoodDetection).
 
 ### Cloud Computing Resource
 
