@@ -29,6 +29,19 @@
 ### A. Disease Prediction Model
 This module focuses on predictive modeling to analyze health metrics and symptoms for disease identification. It includes two models, which can be tested locally or deployed via Streamlit. Resource repository can be accessed from this link: [Disease Model Prediction](https://github.com/dana-ml27-bangkit2024/Capstone-C242-PS384_Project01)
 
+#### Dataset Source:
+- [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+- [Anemia Dataset](https://www.kaggle.com/datasets/biswaranjanrao/anemia-dataset)
+- [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+- [Non-alcohol fatty liver disease (NAFLD)](https://www.kaggle.com/datasets/utkarshx27/non-alcohol-fatty-liver-disease)
+- [Chronic KIdney Disease dataset](https://www.kaggle.com/datasets/mansoordaku/ckdisease)
+- [Metabolic Syndrome](https://www.kaggle.com/datasets/antimoni/metabolic-syndrome)
+- [Cholesterol](https://www.kaggle.com/datasets/mathurinache/cholesterol)
+- [Diabetes, Hypertension and Stroke Prediction](https://www.kaggle.com/datasets/prosperchuks/health-dataset/data)
+- [Obesity Classification Dataset](https://www.kaggle.com/datasets/sujithmandala/obesity-classification-dataset)
+- [SymbiPredict - Mendeley Data](https://data.mendeley.com/datasets/dv5z3v2xyd/1)
+
+
 #### Model 1: Health Data Prediction
 - **Purpose**: Predict potential diseases based on health metrics such as height, weight, and blood pressure.
 - **Features**:
