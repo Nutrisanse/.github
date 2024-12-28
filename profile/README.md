@@ -22,7 +22,7 @@
 ## Preview App 
 <br>
 <img src="https://cdn.pixabay.com/animation/2023/07/19/01/41/01-41-18-281_512.gif" width="500">
-<img src="https://imgur.com/a/dcQCrCq" width="500">
+<img src="https://storage.googleapis.com/submissionmlgc-panca.appspot.com/Project.png" width="500">
 
 # Resource 
 ## Machine Learning Resource
